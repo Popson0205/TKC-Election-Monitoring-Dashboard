@@ -3777,7 +3777,7 @@ async def vote_form():
     <title>THE KUKAH CENTRE (TKC)</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {{ background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/static/bg.png'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; margin: 0; }}
+        body {{ background: linear-gradient(160deg,#0a1f0e 0%,#0d2b10 50%,#0a1f0e 100%); background-attachment: fixed; min-height: 100vh; margin: 0; }}
         .navbar {{ background: rgba(0, 135, 81, 0.9) !important; backdrop-filter: blur(10px); color: white; border-bottom: 4px solid #ffc107; }}
         .card {{ background: rgba(255, 255, 255, 0.95) !important; border-radius: 12px; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.3) !important; margin-bottom: 20px; color: #222; }}
         .section-label {{ font-size: 0.75rem; font-weight: bold; color: #008751; text-transform: uppercase; border-left: 3px solid #ffc107; padding-left: 10px; margin-bottom: 15px; display: block; }}
@@ -4454,7 +4454,7 @@ REPORT_HTML = """
     <title>TKC — INCIDENT REPORT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/static/bg.png'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh; margin: 0; }
+        body { background: linear-gradient(160deg,#0a1f0e 0%,#0d2b10 50%,#0a1f0e 100%); background-attachment: fixed; min-height: 100vh; margin: 0; }
         .navbar { background: rgba(180,0,0,0.92) !important; backdrop-filter: blur(10px); color: white; border-bottom: 4px solid #ff6600; }
         .card { background: rgba(255,255,255,0.96) !important; border-radius: 12px; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.4) !important; margin-bottom: 20px; color: #222; }
         .section-label { font-size: 0.75rem; font-weight: bold; color: #cc0000; text-transform: uppercase; border-left: 3px solid #ff6600; padding-left: 10px; margin-bottom: 15px; display: block; }

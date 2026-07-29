@@ -1304,7 +1304,7 @@ async def request_otp(request: Request):
             from twilio.rest import Client as _TC
             client = _TC(account_sid, auth_token)
             msg = (
-                f"🗳 *ACCORD FIELD COLLATION*\n"
+                f"🗳 *TKC FIELD COLLATION*\n"
                 f"━━━━━━━━━━━━━━━━━━\n"
                 f"Your One-Time Password:\n\n"
                 f"*{otp}*\n\n"
@@ -1654,7 +1654,7 @@ td{padding:9px 10px;vertical-align:middle}
   <div class="login-card">
     <div class="lock-icon">🔐</div>
     <h1>Results Portal</h1>
-    <p class="sub">ACCORD Field Collation — Review & Approve</p>
+    <p class="sub">TKC Field Collation — Review & Approve</p>
     <input type="password" id="rKey" class="form-control" placeholder="Admin key" onkeydown="if(event.key==='Enter')rLogin()">
     <button class="btn-primary" id="rLoginBtn" onclick="rLogin()">Access Results Portal →</button>
     <div class="err-msg" id="rLoginErr">Incorrect key. Try again.</div>
@@ -3544,10 +3544,10 @@ HOMEPAGE_HTML = """
     <!-- Header -->
     <div class="header">
         <div class="logo-ring">
-            <img src="/logos/ACCORD.png" alt="ACCORD" onerror="this.src='https://via.placeholder.com/72x72/008751/ffffff?text=A'">
+            <img src="/static/logos/tkc-logo.png" alt="The Kukah Centre (TKC)" onerror="this.src='https://via.placeholder.com/72x72/008751/ffffff?text=TKC'">
         </div>
         <div class="system-tag">Osun 2026 Governorship Election · Independent Observation</div>
-        <h1>ACCORD <span>Intelligence</span><br>Operations Centre</h1>
+        <h1>TKC <span>Intelligence</span><br>Operations Centre</h1>
         <p class="subtitle">Real-time election collation, incident reporting and live analytics for the 2026 Osun Governorship Election.</p>
     </div>
 
@@ -3832,7 +3832,7 @@ async def vote_form():
     </style>
 </head>
 <body>
-    <nav class="navbar py-2 mb-4 text-center"><h5>IMOLE YOUTH ACCORD MOBILIZATION OFFICIAL FIELD COLLATION</h5></nav>
+    <nav class="navbar py-2 mb-4 text-center"><h5>THE KUKAH CENTRE (TKC) OFFICIAL FIELD COLLATION</h5></nav>
     <div class="container pb-5" style="max-width: 850px;">
         <!-- ── Step 1: LGA + Officer ID ── -->
         <div id="step1Area" class="card p-5 text-center mx-auto" style="max-width: 420px;">
@@ -4364,7 +4364,7 @@ async def request_incident_otp(request: Request):
             from twilio.rest import Client as _TC2
             client = _TC2(account_sid, auth_token)
             msg = (
-                f"🚨 *ACCORD INCIDENT REPORTING*\n"
+                f"🚨 *TKC INCIDENT REPORTING*\n"
                 f"━━━━━━━━━━━━━━━━━━\n"
                 f"Your One-Time Password:\n\n"
                 f"*{otp}*\n\n"
@@ -4473,7 +4473,7 @@ REPORT_HTML = """
     </style>
 </head>
 <body>
-<nav class="navbar py-2 mb-4 text-center"><h5>⚠️ ACCORD INCIDENT REPORTING SYSTEM</h5></nav>
+<nav class="navbar py-2 mb-4 text-center"><h5>⚠️ TKC INCIDENT REPORTING SYSTEM</h5></nav>
 <div class="container pb-5" style="max-width: 750px;">
 
     <!-- Step 1: Officer ID only (no LGA needed) -->
@@ -4895,7 +4895,7 @@ INCIDENT_DASHBOARD_HTML = """
 
 <nav class="navbar-custom">
     <div>
-        <div class="brand-title">🚨 ACCORD INCIDENT COMMAND — OSUN 2026</div>
+        <div class="brand-title">🚨 TKC INCIDENT COMMAND — OSUN 2026</div>
         <div style="font-size:0.65rem;color:#666;margin-top:2px;">Security & Command Team Dashboard · Auto-refresh every 30s</div>
     </div>
     <div style="display:flex;gap:8px;align-items:center;">
@@ -5810,7 +5810,7 @@ DASHBOARD_HTML = """
         <div class="live-dot"></div>
         <div class="nav-divider"></div>
         <div>
-            <div class="brand-name">ACCORD · OSUN 2026</div>
+            <div class="brand-name">TKC · OSUN 2026</div>
             <div class="brand-tag">Situation Room — Live Command</div>
         </div>
     </div>
